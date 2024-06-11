@@ -1,0 +1,26 @@
+SELECT
+    director, COUNT(*) AS title_count
+FROM
+    netflix_titles
+WHERE
+    director IS NOT NULL
+GROUP BY
+    director
+ORDER BY
+    title_count DESC
+LIMIT 1;
+
+
+
+
+
+SELECT
+    rating, AVG(release_year) AS average_release_year
+FROM
+    netflix_titles
+WHERE
+    release_year IS NOT NULL
+GROUP BY
+    rating
+ORDER BY
+    average_release_year DESC;
