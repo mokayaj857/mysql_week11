@@ -10,3 +10,16 @@ ORDER BY
     genre_count DESC
 LIMIT 1;
 
+Finding the country with the highest number of titles:
+
+SELECT
+    country, COUNT(*) AS title_count
+FROM
+    netflix_titles
+WHERE
+    country IS NOT NULL
+GROUP BY
+    country
+ORDER BY
+    title_count DESC
+LIMIT 1;
