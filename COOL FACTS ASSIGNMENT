@@ -1,0 +1,12 @@
+Find 2 cool facts hidden within the data (e.g., most popular interests). ASSIGNMENT
+Finding the most common genres:
+SELECT
+    listed_in, COUNT(*) AS genre_count
+FROM
+    netflix_titles
+GROUP BY
+    listed_in
+ORDER BY
+    genre_count DESC
+LIMIT 1;
+
