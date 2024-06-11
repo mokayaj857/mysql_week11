@@ -6,18 +6,18 @@ This repository contains the analysis of the Netflix Shows dataset. The dataset 
 
 ## Dataset Selection
 - **Dataset:** Netflix Shows
-- **Link to Dataset:** [Netflix Shows Dataset](#) (replace `#` with the actual link)
+
 
 ## Steps to Import Dataset into MySQL Workbench
 
 ### 1. Download MySQL Workbench
-- Visit the [MySQL Workbench download page](https://dev.mysql.com/downloads/workbench/) and install the software appropriate for your operating system.
+
 
 ### 2. Download the Dataset
-- Download the Netflix Shows dataset from the provided link.
-- Ensure the dataset is saved in a `.csv` or `.sql` file format suitable for import into MySQL Workbench.
+-  i Downloaded the Netflix Shows dataset from the provided link.
+-  I Ensured the dataset is saved in a `.csv` or `.sql` file format suitable for import into MySQL Workbench.
 
-### 3. Create a New Database
+### 3. I Created a New Database
 1. **Open MySQL Workbench.**
 2. **Create a new schema (database):**
    - Go to the `Server` menu and select `Data Import`.
@@ -47,7 +47,7 @@ This repository contains the analysis of the Netflix Shows dataset. The dataset 
      ```
 
 2. **Load data into the table:**
-   - Use the `LOAD DATA INFILE` command or the import wizard to load your data from the dataset file into the table.
+   -I UseDthe `LOAD DATA INFILE` command or the import wizard to load  data from the dataset file into the table.
 
 ## Difficulties Encountered
 - **File Format Compatibility:** The dataset was initially in a `.csv` format, which required converting to a compatible `.sql` format for easier import into MySQL Workbench.
@@ -56,5 +56,5 @@ This repository contains the analysis of the Netflix Shows dataset. The dataset 
 ## Interesting Observation
 One interesting observation about the dataset was the diversity of content available on Netflix. The dataset includes shows from various genres, countries, and different time periods, showcasing the wide range of entertainment options offered by the platform.
 
-## Repository Link
+## Repository Link: https://github.com/mokayaj857/mysql_week11/commits?author=mokayaj857
 
